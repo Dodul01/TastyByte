@@ -32,7 +32,7 @@ const PopularResturent = () => {
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5'>
 
                     {restaurants.map((restaurant) => {
-                        return <div className='bg-[#FAF5FF] p-2 rounded-lg border shadow'>
+                        return <div className='bg-[#FAF5FF] p-2 rounded-lg border shadow cursor-pointer'>
                             <div className='w-full flex items-center justify-center'>
                                 <img src={restaurant.image} alt="food_image" />
                             </div>

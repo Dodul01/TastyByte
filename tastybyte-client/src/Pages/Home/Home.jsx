@@ -2,6 +2,7 @@ import Banner from '../../Components/Banner/Banner'
 import PopularResturent from '../../Components/PopularResturent/PopularResturent'
 import { motion } from 'framer-motion'
 import TrandingFood from '../../Components/TrandingFood/TrandingFood'
+import SpecialOffer from '../../Components/SpecialOffer/SpecialOffer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner />
       <TrandingFood />
       <PopularResturent />
+      <SpecialOffer />
     </motion.div>
   )
 }
